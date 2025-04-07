@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+}
+
+.empresaNome{
+    font-family: 'Kodchasan';
+    font-size: 22.5px;
+    width: 8%;
+}
+td{
+    width: 4%; height: 16.5%;
+}
+table{
+    height: 100vh;
+    width: 100%;
+}
+.cabecalho{
+    background-color:#2879a8;
+}
+.botaoCabecalho{
+    width: 150px;
+    height: 50px;
+    background-color: #8b4e83;
+}
+
+#tdBtn{
+    text-align: center;
+
+}
+.escritaTitulo{
+    font-family: 'Kodchasan';
+    font-size: 25px;
+    width: 8%;
+    -webkit-text-stroke: 1.5px;
+}
+.escritaNormal{
+    font-family: 'Kodchasan';
+    font-size: 20px;
+    width: 8%;
+}
+.tabelaCor{
+    background-color: #4e97c2;
+}
+.tabelaCor2{
+    background: linear-gradient(to bottom,blue, lightblue, lightblue); 
+}
+.escritapg1{
+    background-color: rgb(31, 115, 136);
+    font-family: 'Kodchasan';
+    font-size: 20px;
+    width: 8%;
+    padding: 30px;
+}
+#link{
+    color: black;
+    text-decoration: none;
+}
+.borda4{
+    border-radius:0px 0px 15px 0px;
+    background-color: rgb(31, 115, 136);
+    font-family: 'Kodchasan';
+    font-size: 20px;
+}
+.borda3{
+    border-radius: 0px 0px 0px 0px;
+    background-color: rgb(31, 115, 136);
+    font-family: 'Kodchasan';
+    font-size: 20px;
+}
+
+.borda2{
+    border-radius: 0px 0px 0px 15px;
+    background-color: rgb(31, 115, 136);
+    font-family: 'Kodchasan';
+    font-size: 20px;
+}
+.borda{
+    border-radius: 15px 15px 0px 0px;
+    background-color: rgb(31, 115, 136);
+    font-family: 'Kodchasan';
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 6rem;
+    font-weight: bold;
+    color: #fff;
+    background: url('furacao.webp')center;
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+    animation: animate 10s linear infinite;
+}
+@keyframes animate {
+    to{
+        background-position-x: -200px;
+    }
+}
+.contato4{
+    border-radius:0px 0px 45px 0px;
+    background-color: rgb(68, 68, 68);
+    font-family: 'Kodchasan';
+    font-size: 20px;
+}
+.contato3{
+    border-radius: 0px 0px 0px 0px;
+    background-color: rgb(68, 68, 68);
+    font-family: 'Kodchasan';
+    font-size: 20px;
+}
+
+.contato2{
+    border-radius: 0px 0px 0px 45px;
+    background-color: rgb(68, 68, 68);
+    font-family: 'Kodchasan';
+    font-size: 20px;
+}
+.contato{
+    border-radius: 45px;
+    position: relative;
+    background-color: rgb(68, 68, 68);
+    font-family: 'Kodchasan';
+    font-size: 20px;
+}
+.contato5{
+    border-radius: 0px 45px 0px 0px;
+    background-color: rgb(68, 68, 68);
+    font-family: 'Kodchasan';
+    font-size: 20px;
+}
+.enviarbtn{
+    background-color: greenyellow;
+    width: 150px;
+    height: 50px;
+    font-family: 'Kodchasan';
+    font-style: bolder;
+}
+.registeration-form{
+    width: 500px;
+    padding: 30px;
+    margin: 10% auto;
+    background: #ddd;
+}
+.registeration-form h2, p{
+    text-align: center;
+    margin: 5px 0;
+}
+.registeration-form p:nth-child(2){
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.registeration-form .flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.registeration-form .flex input [type=text]{
+    width: 110px;
+    border: none;
+    outline: none;
+    height: 38px;
+    padding-left: 15px;
+}
+.diferente{
+    text-align: center;
+    font-size: 6rem;
+    font-weight: bold;
+    color: black;
+}
+.barraPesquisa{
+    text-align: center;
+
+}
+.barraPesquisa input{
+    width: 500px;
+    height: 20px;
+    border-radius: 20px;
+    padding-left: 25px;
+    font-family: 'Kodchasan';
+}
+#furacao{
+    position: relative; 
+    height: 40px;
+    vertical-align: middle;
+    right: 20px;
+}
+#lupa{
+    position: relative;
+    height: 30px;
+    vertical-align: middle;
+    left: 30px;
+}
